@@ -41,6 +41,7 @@
 
 ### 源码下载以及项目运行
 
+``` bash
 # clone the repo into your disk.
 $ git clone https://github.com/cruxf/Vue-eleme.git
 
@@ -49,6 +50,7 @@ $ npm install
 
 # serve with hot reload at localhost:8080
 $ npm run dev
+```
 
 
 
