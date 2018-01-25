@@ -7,7 +7,7 @@
 ### 技术栈
 
 【前端】<br>
-- HTML/CSS/JavaScript：使用了HTML5中[localStorage](https://github.com/CruxF/HTML-5/blob/master/WebStorage/Explain.md)来实现收藏商家的信息存储；[移动端1px问题解决](https://www.cnblogs.com/lunarorbitx/p/5287309.html);[flex布局](http://www.cnblogs.com/fengxiongZz/p/6543889.html)；[sticky footer布局](https://www.cnblogs.com/zsqos/archive/2017/06/02/6935646.html)；以及iconFont等<br>
+- HTML/CSS/JavaScript：使用了HTML5中[localStorage](https://github.com/CruxF/HTML-5/blob/master/WebStorage/Explain.md)来实现收藏商家的信息存储；[移动端1px](https://www.cnblogs.com/lunarorbitx/p/5287309.html)问题解决；[flex布局](http://www.cnblogs.com/fengxiongZz/p/6543889.html)和[sticky footer布局](https://www.cnblogs.com/zsqos/archive/2017/06/02/6935646.html)；以及iconFont等<br>
 - stylus：预编译CSS，高效快速的完成CSS样式以及实现各种情况的样式切换，[学习地址](http://www.zhangxinxu.com/jq/stylus/)<br>
 - better-scroll：这是由课程老师黄轶编写的一款JavaScript插件，实现了页面平滑滚动的效果，[学习地址](https://github.com/ustbhuangyi/better-scroll)<br>
 - Vue.js：一个前端 MVVM 框架，主要思想是双向数据绑定和组件化，[学习地址](https://cn.vuejs.org/)<br>
@@ -37,7 +37,18 @@
 
 ### 不足
 
-由于该门课程有一定的历史，在这期间发生了很多的变更，包括webpack的升级、vue-cli的升级以及vue.js的升级，导致了跟着老师的思路一点点的去开发，然后有部分效果并没有实现。并且有相当部分的内容一时还难以理解，要达到完全理解并学会灵活使用还需要付出很多的努力。在一步步地敲代码过程中，简单记录了每一个模块的开发，用来日后将其慢慢地分步理解和掌握，[地址](http://www.cnblogs.com/fengxiongZz/p/8214130.html)
+由于该门课程有一定的历史，在这期间发生了很多的变更，包括webpack的升级、vue-cli的升级以及vue.js的升级，导致了跟着老师的思路一点点的去开发，然后有部分效果并没有实现。并且有相当部分的内容一时还难以理解，要达到完全理解并学会灵活使用还需要付出很多的努力。在一步步地敲代码过程中，简单记录了每一个模块的开发，用来日后将其慢慢地分步理解和掌握，[地址](http://www.cnblogs.com/fengxiongZz/p/8214130.html)<br>
+
+### 源码下载以及项目运行
+
+# clone the repo into your disk.
+$ git clone https://github.com/cruxf/Vue-eleme.git
+
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:8080
+$ npm run dev
 
 
 
